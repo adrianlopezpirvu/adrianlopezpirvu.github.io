@@ -1,23 +1,29 @@
-# The Interesting Times - Jekyll Theme
+# Glayu Times Theme
 
-[Live Demo](https://ohduran.github.io/the-interesting-times) &nbsp; | &nbsp; [Download](https://github.com/ohduran/the-interesting-times/archive/master.zip) &nbsp; | &nbsp; [Support me on Patreon](https://patreon.com/alvaroduran)
+![mockup](https://raw.githubusercontent.com/pmartinezalvarez/glayu-times/master/mock.png)
 
-![mediumish](assets/images/the-interesting-times.png)
+This is the [Glayu](https://github.com/pmartinezalvarez/glayu) static site generator default theme. It is inspired by old style newspapers. The project is derived from the [Glayu Times](https://github.com/pmartinezalvarez/glayu-times) bootstrap template, and all the included assets are compiled. If you want to update the theme appearance please work on the bootstrap version.  
+
+## Quick Start
+
+To enable this theme on your Glayu site ensure that your `_config.yml` includes:
+ 
+ ```yml
+ theme: glayu-times
+ theme_uri: https://github.com/pmartinezalvarez/glayu-times-theme/archive/master.zip
+ ```
+ 
+ And run:
+ ```console
+$ glayu init
+```
+ 
+ By default this theme is included on your Glayu site the first time you run the `glayu init` command.
 
 
-### Copyright
+## Copyright and license
 
-Copyright (C) 2019 Alvaro Duran, https://www.alvaroduran.com
-
-**The Interesting Times theme for Jekyll** is designed and developed by [Alvaro](https://alvaroduran.com) and it is *free* under [MIT license](https://alvaroduran.mit-license.org/).
-
-<a href="https://patreon.com/alvaroduran" target="_blank">Support me on Patreon</a>
-
-### Contribute
-
-1. [Fork the repo](https://github.com/ohduran/the-interesting-times).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
-
-Thank you!
+This project is available under the MIT license.
+ 
+The project includes the [Unifraktur Maguntia](https://www.fontsquirrel.com/fonts/unifraktur-maguntia) font that is 
+available under the SIL Open Font License v1.10. 
