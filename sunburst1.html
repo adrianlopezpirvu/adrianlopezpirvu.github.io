@@ -90,17 +90,19 @@
                             </div>
                             <div class="col-md-8 col-md-offset-2">
                                 <div class="content">
+                                    <p>For this plot, our aim was to analyze if there is a correlation between the arresting entity and the race of the individual being arrested. To achieve this, we designed a plot featuring two layers: the distribution of the number of arrests by each entity, and the distribution of arrested races considering the entity.</p>
                                     <figure>
                                         <iframe src="sunburst_chart1.html" width="800" height="600" frameborder="0"></iframe>
                                         <figcaption>Police Units detentions by Race
                                         </figcaption>
                                     </figure>
-                                    <p>Poner aquí el texto.                                    </p>
-                                    <p>   Otro párrafo                                     </p>
-                                    <p>   Otro   </p>
-                                    <p>  Otro  </p>
-                                    <p>  Otro  </p>
-
+                                    <p>It is observable that the majority of arrests, 86%, are attributed to the Patrol entity, followed by Transit with 9%, and Housing with only 5%.
+                                    </p>
+                                    <p>   The second layer should be understood as a joint distribution of each entity, i.e., P(Entity, Race), which is not the same as P(Race|Entity). For example, if we wanted to know the total number of arrests of black individuals, it would be P(Entity={Patrol, Transit, Housing}, Race=Black) = P(Patrol, Black) + P(Transit, Black) + P(Housing, Black) = 41 + 5 + 3 = 49%.                                 </p>
+                                    <p>  Focusing on the conditionals based on the arresting entity using the plot's interactivity, it is evident that 48% of arrests made by Patrol are of black individuals, making it the most frequently arrested race, followed by white Hispanic at 26%.   </p>
+                                    <p>  For Transit, the percentage of black individuals arrested rises to 56%, while white Hispanic remains the second most arrested race at 26%.  </p>
+                                    <p>  In the case of Housing, the distribution is even more striking, with black individuals accounting for 64% of Housing arrests, a statistically significant figure compared to the other two entities.  </p>
+                                    <p> With this plot, individual analyses can be conducted to understand how the arresting entity may influence the race of the arrested individual, essentially identifying which entity is prominent in potentially exhibiting bias in arrests.</p>
                                 </div>
                             </div>
                         </div>
